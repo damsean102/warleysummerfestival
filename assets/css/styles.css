@@ -1,9 +1,37 @@
 @font-face {
-    font-family: 'bebaskai';
-    src: url('../fonts/bebaskai-webfont.woff2') format('woff2'),
-         url('../fonts/bebaskai-webfont.woff') format('woff');
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('../fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lobster_1.3regular';
+    src: url('../fonts/lobster_1.3-webfont.woff2') format('woff2'),
+         url('../fonts/lobster_1.3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 html {
@@ -12,11 +40,13 @@ html {
 
 body {
     background: #fbcd1f;
-    font-family: 'bebaskai', Arial, Helvetica, sans-serif;
+    font-family: 'montserratregular', Arial, Helvetica, sans-serif;
+    min-height: 100vh;
 }
 
 .header-section {
     margin-top: 120px;
+    font-family: 'lobster_1.3regular', 'montserratregular', Arial, Helvetica, sans-serif;
 }
 
 .header-section img {
