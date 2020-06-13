@@ -53,10 +53,6 @@ body {
     max-width: 200px;
 }
 
-#video {
-    display: none;
-}
-
 #countdown {
     font-family: 'montserratbold', Arial, Helvetica, sans-serif;
 }
